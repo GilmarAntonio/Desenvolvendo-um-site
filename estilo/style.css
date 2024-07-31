@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+:root {
+    --rosa_claro: #f1b1db;
+    --rosa_medio: #c967a3;
+    --rosa_escuro: #8f0a60;
+    --rosa_forte: #e100ff;
+    --escuro: #332B30;
+    
+}
+
 body {
     background-color: rgb(255, 255, 255);
 }
