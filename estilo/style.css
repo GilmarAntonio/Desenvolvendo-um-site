@@ -18,16 +18,23 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'coração';
+    src: url('../fonts/love\ story\ ttf.ttf') format('truetype');
+    font-weight: normal;
+}
+
 :root {
-    --rosa_claro: #fcc7e9;
+    --rosa_claro: #ffdef3;
     --rosa_medio: #c967a3;
     --rosa_escuro: #8f0a60;
     --rosa_forte: #e100ff;
-    --escuro: #332B30;
+    --escuro: #330220;
 
     --fonte-coelho: 'coelho', 'cursive';
     --fonte-padrão: 'padrão', 'arial';
     --fonte-placa: 'placa', 'cursive';
+    --fonte-coração: 'coração', 'cursive';
     
 }
 
@@ -37,7 +44,7 @@ body {
 
 header > h1 {
     color: var(--rosa_escuro);
-    font-family: var(--fonte-coelho);
+    font-family: var(--fonte-coração);
     
 }
 
