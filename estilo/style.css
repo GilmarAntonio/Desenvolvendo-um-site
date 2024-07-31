@@ -1,7 +1,21 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family:'';
+    font-family:'padrão';
+    src:url('../fonts/KalniaGlaze-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'placa';
+    src: url('../fonts/KGChasingCars.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'coelho';
+    src: url('../fonts/KR\ Bunny\ Dings.ttf') format('truetype'); 
+    font-weight: normal;
 }
 
 :root {
@@ -10,6 +24,10 @@
     --rosa_escuro: #8f0a60;
     --rosa_forte: #e100ff;
     --escuro: #332B30;
+
+    --fonte-coelho: 'coelho', 'cursive';
+    --fonte-padrão: 'padrão', 'arial';
+    --fonte-placa: 'placa', 'cursive';
     
 }
 
@@ -19,5 +37,7 @@ body {
 
 header > h1 {
     color: var(--rosa_escuro);
+    font-family: var(--fonte-coelho);
+    
 }
 
