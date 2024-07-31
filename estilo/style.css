@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family:'';
+}
+
 :root {
-    --rosa_claro: #f1b1db;
+    --rosa_claro: #fcc7e9;
     --rosa_medio: #c967a3;
     --rosa_escuro: #8f0a60;
     --rosa_forte: #e100ff;
@@ -10,6 +14,10 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--rosa_claro);
+}
+
+header > h1 {
+    color: var(--rosa_escuro);
 }
 
