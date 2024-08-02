@@ -54,5 +54,6 @@ header > h1 {
 
 header > p {
     font-family: var(--fonte-padrão);
+    font-size: 1.3em;
 }
 
