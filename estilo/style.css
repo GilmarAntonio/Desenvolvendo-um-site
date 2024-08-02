@@ -29,7 +29,7 @@
 }
 
 :root {
-    --rosa_claro: #ffdef3;
+    --rosa_claro: #f8f0f5;
     --rosa_medio: #c967a3;
     --rosa_escuro: #8f0a60;
     --rosa_forte: #e100ff;
@@ -44,16 +44,26 @@
 
 body {
     background-color: var(--rosa_claro);
-    fon
     
 }
 
+
 header > h1 {
-  font-family: var(--fonte-coração);
+    font-size: 4em;
+    color: var(--escuro);
+    font-family: var(--fonte-placa);
+    text-align: center;
+    background-color: var(--rosa_medio);
+    
 }
 
 header > p {
     font-family: var(--fonte-padrão);
-    font-size: 1.3em;
+    font-size: 1.6em;
+    
+}
+
+main h1{
+    font-family: var(--fonte-coração);
 }
 
