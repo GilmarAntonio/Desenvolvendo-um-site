@@ -42,6 +42,10 @@
     
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body {
     background-color: var(--rosa_claro);
     
@@ -91,6 +95,10 @@ article > h2 {
 article > p {
     font-family: var(--fonte-padrão);
     font-size: 1.6em;
+}
+article img {
+    width: 500px;
+    display: block;
 }
 
 footer {
