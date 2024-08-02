@@ -29,7 +29,7 @@
 }
 
 :root {
-    --rosa_claro: #f8f0f5;
+    --rosa_claro: #e0afce7e;
     --rosa_medio: #c967a3;
     --rosa_escuro: #8f0a60;
     --rosa_forte: #e100ff;
@@ -47,6 +47,13 @@ body {
     
 }
 
+.coelho{
+    font-family: var(--fonte-coelho);
+    text-align: center;
+    color: var(--escuro);
+    font-size: 30px;
+    letter-spacing: 30px;
+}
 
 header > h1 {
     font-size: 4em;
@@ -60,10 +67,34 @@ header > h1 {
 header > p {
     font-family: var(--fonte-padrão);
     font-size: 1.6em;
-    
 }
 
-main h1{
+nav {
+    background-color: var(--rosa_medio);
+}
+
+main {
+    background-color: white;
+}
+
+main > h1 {
+    font-size: 4em;
+    color: var(--escuro);
+    font-family: var(--fonte-placa);
+    text-align: center;
+    background-color: var(--rosa_medio);
+}
+article > h2 {
     font-family: var(--fonte-coração);
+}
+
+article > p {
+    font-family: var(--fonte-padrão);
+    font-size: 1.6em;
+}
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--rosa_medio);
 }
 
