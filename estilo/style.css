@@ -48,7 +48,6 @@
 }
 body {
     background-color: var(--rosa_claro);
-    
 }
 
 .coelho{
@@ -64,8 +63,7 @@ header > h1 {
     color: var(--escuro);
     font-family: var(--fonte-placa);
     text-align: center;
-    background-color: var(--rosa_medio);
-    
+    background-color: var(--rosa_medio); 
 }
 
 header > p {
@@ -98,11 +96,21 @@ article > p {
     font-size: 1.6em;
 }
 article img {
-    width: 100px;
-    
+    width: 300px;
+    padding: 10px;
 }
 
+.a {
+    display: flex; /*para centraliza a imagem*/
+    justify-content: center; /*para centraliza a imagem*/
+    align-items: center; /*para centraliza a imagem*/
+}
 
+.v {
+    display: flex; /*para centraliza a imagem*/
+    justify-content: center; /*para centraliza a imagem*/
+    align-items: center; /*para centraliza a imagem*/
+}
 
 footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
