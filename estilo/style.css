@@ -96,7 +96,7 @@ article > p {
     font-size: 1.6em;
 }
 article img {
-    width: 300px;
+    width: 50px;
     padding: 10px;
 }
 
@@ -104,6 +104,7 @@ article img {
     display: flex; /*para centraliza a imagem*/
     justify-content: center; /*para centraliza a imagem*/
     align-items: center; /*para centraliza a imagem*/
+    background-color: var(--rosa_claro);
 }
 
 .v {
