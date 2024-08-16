@@ -79,6 +79,10 @@ main {
     background-color: white;
 }
 
+article {
+    background-color: white;
+}
+
 main > h1 {
     font-size: 4em;
     color: var(--escuro);
@@ -114,7 +118,7 @@ article img {
 }
 
 footer {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: var(--rosa_medio);
 }
 
