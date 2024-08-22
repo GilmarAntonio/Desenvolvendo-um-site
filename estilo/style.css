@@ -69,6 +69,7 @@ header > h1 {
 header > p {
     font-family: var(--fonte-padrão);
     font-size: 1.6em;
+    text-align: center;
 }
 
 nav {
@@ -77,31 +78,34 @@ nav {
 
 main {
     background-color: white;
+    padding: 10px;
+    margin: auto;
+}
+
+main h1 {
+    font-size: 4em;
+    color: var(--escuro);
+ 
 }
 
 article {
     background-color: white;
 }
 
-main > h1 {
-    font-size: 4em;
-    color: var(--escuro);
-    font-family: var(--fonte-placa);
-    text-align: center;
-    background-color: var(--rosa_medio);
-}
 article > h2 {
     font-family: var(--fonte-coração);
     text-align: center;
+    background-color: var(--rosa_claro);
 }
 
 article > p {
     font-family: var(--fonte-padrão);
     font-size: 1.6em;
+    background-color: var(--rosa_claro);
 }
 article img {
-    width: 50px;
-    padding: 10px;
+    width: 100px;
+    padding: 0px;
 }
 
 .a {
