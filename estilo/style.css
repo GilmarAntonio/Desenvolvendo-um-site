@@ -42,7 +42,7 @@
     
 }
 
-* {
+* { /*seleciona todos os elementos abaixo. É uma configuração global*/
     margin: 0px;
     padding: 0px;
 }
