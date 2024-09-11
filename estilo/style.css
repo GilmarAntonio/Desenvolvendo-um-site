@@ -80,8 +80,11 @@ main {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
+    margin-bottom: 150px;
     background-color: white;
     padding: 30px;
+    box-shadow: 0px 0px 20px;
+    border-radius: 30px;
 }
 
 main h1 {
@@ -90,7 +93,6 @@ main h1 {
     color: var(--escuro);
  
 }
-
 
 article > h2 {
     font-family: var(--fonte-coração);
