@@ -58,12 +58,20 @@ body {
     letter-spacing: 30px;
 }
 
+header {
+  
+}
+
 header > h1 {
     font-size: 4em;
     color: var(--escuro);
     font-family: var(--fonte-placa);
     text-align: center;
     background-color: var(--rosa_medio); 
+    min-height: 150px;
+    padding-top: 40px;
+    text-shadow: 2px 2px 0px rgb(206, 65, 65);
+    background-image: linear-gradient(to bottom, var(--rosa_claro), var(--rosa_escuro) );
 }
 
 header > p {
@@ -74,6 +82,8 @@ header > p {
 
 nav {
     background-color:var(--rosa_claro);
+    padding: 40px;
+    box-shadow: 20px 20px #e100ff;
 }
 
 main {
