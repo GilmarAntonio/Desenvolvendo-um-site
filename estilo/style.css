@@ -80,10 +80,23 @@ header > p {
     text-align: center;
 }
 
+
 nav {
     background-color:var(--rosa_claro);
-    padding: 40px;
-    box-shadow: 20px 20px #e100ff;
+    padding: 20px;  
+    box-shadow: 10px 10px 10px #33022036; 
+}
+
+nav > a {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: 2s;
+}
+
+nav > a:hover {
+    background-color:var(--rosa_forte);
 }
 
 main {
