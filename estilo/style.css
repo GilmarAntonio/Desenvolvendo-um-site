@@ -48,6 +48,7 @@
 }
 body {
     background-color: var(--rosa_claro);
+    
 }
 
 .coelho{
@@ -56,10 +57,6 @@ body {
     color: var(--escuro);
     font-size: 30px;
     letter-spacing: 30px;
-}
-
-header {
-  
 }
 
 header > h1 {
@@ -72,6 +69,15 @@ header > h1 {
     padding-top: 40px;
     text-shadow: 2px 2px 0px rgb(206, 65, 65);
     background-image: linear-gradient(to bottom, var(--rosa_claro), var(--rosa_escuro) );
+}
+
+p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+    background-image: linear-gradient(to right, var(--rosa_medio transparent));
 }
 
 header > p {
@@ -111,9 +117,9 @@ main {
 }
 
 main h1 {
-
     font-size: 4em;
     color: var(--escuro);
+    background-image: linear-gradient(to right, var(--rosa_medio transparent));
  
 }
 
@@ -148,6 +154,7 @@ article img {
     justify-content: center; /*para centraliza a imagem*/
     align-items: center; /*para centraliza a imagem*/
 }
+
 
 footer {
     font-family: Arial, Helvetica, sans-serif;
