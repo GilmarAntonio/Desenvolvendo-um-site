@@ -98,11 +98,15 @@ nav > a {
     padding: 20px;
     text-decoration: none;
     font-weight: bolder;
-    transition: 2s;
+    transition: 1s;
 }
 
 nav > a:hover {
     background-color:var(--rosa_forte);
+    text-decoration: underline;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 main {
@@ -120,6 +124,8 @@ main h1 {
     font-size: 4em;
     color: var(--escuro);
     background-image: linear-gradient(to right, var(--rosa_medio transparent));
+    border-radius: 20px;
+    padding: 10px;
  
 }
 
@@ -127,26 +133,33 @@ article > h2 {
     font-family: var(--fonte-coração);
     text-align: center;
     background-color: var(--rosa_claro);
+    border-radius: 20px;
+    padding: 10px;
 }
 
 article > p {
     font-family: var(--fonte-padrão);
     font-size: 1.6em;
     background-color: var(--rosa_claro);
+    border-radius: 20px;
+    padding: 10px;
 }
 article img {
     width: 100px;
     padding: 0px;
+    border-radius: 20px;
 }
 
 .robo {
     text-align: center;
 }
+
 .a {
     display: flex; /*para centraliza a imagem*/
     justify-content: center; /*para centraliza a imagem*/
     align-items: center; /*para centraliza a imagem*/
     background-color: var(--rosa_claro);
+    border-radius: 20px;
 }
 
 .v {
@@ -155,9 +168,44 @@ article img {
     align-items: center; /*para centraliza a imagem*/
 }
 
+aside {
+    background-color: rgb(240, 152, 214);
+    margin: 10px 0px;
+    padding: 10px;
+    font-size: 1.3em;
+    border-radius: 20px 20px 0px 0px;
+    
+    
+}
+
+aside h3 {
+    background-color: rgba(123, 205, 211, 0.438);
+    color: rgba(0, 0, 0, 0.678);
+    font-size: 1.5em;
+    padding: 5px;
+    margin: -10px -10px -10px -10px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    
+    
+}
+
+aside > ul {
+    list-style-type: "\1F43E\00A0\00A0";/*espaço entre o imoji e a palavra*/
+    font-size: 1.5em;
+    list-style-position: inside;
+    columns: 3;
+    border-radius: 20px;
+}
 
 footer {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--rosa_medio);
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
 }
 
+footer a {
+    color: aliceblue;
+}
