@@ -145,10 +145,10 @@ article > p {
     padding: 10px;
 }
 article img {
-    width: 200px;
+    width: 100px;
     padding: 0px;
     border-radius: 20px;
-    text-align: center;
+
 }
 
 .robo {
@@ -162,6 +162,7 @@ article img {
     align-items: center; /*para centraliza a imagem*/
     background-color: var(--rosa_claro);
     border-radius: 20px;
+    
 }
 
 .v {
