@@ -145,15 +145,15 @@ article > p {
     padding: 10px;
 }
 article img {
-    width: 100px;
+    width: 200px;
     padding: 0px;
     border-radius: 20px;
-    
+    text-align: center;
 }
 
 .robo {
     text-align: center;
-    
+
 }
 
 .a {
@@ -175,9 +175,7 @@ aside {
     margin: 10px 0px;
     padding: 10px;
     font-size: 1.3em;
-    border-radius: 20px 20px 0px 0px;
-    
-    
+    border-radius: 20px 20px 0px 0px;  
 }
 
 aside h3 {
@@ -188,8 +186,6 @@ aside h3 {
     margin: -10px -10px -10px -10px;
     border-radius: 20px 20px 0px 0px;
     text-align: center;
-    
-    
 }
 
 aside > ul {
