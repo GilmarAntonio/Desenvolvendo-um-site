@@ -60,7 +60,7 @@ body {
 }
 
 header > h1 {
-    font-size: 4em;
+    font-size: 6em;
     color: var(--escuro);
     font-family: var(--fonte-placa);
     text-align: center;
@@ -153,6 +153,7 @@ article img {
 
 .robo {
     text-align: center;
+    
 }
 
 .a {
